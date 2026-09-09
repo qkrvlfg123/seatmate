@@ -80,6 +80,11 @@ body{
 @media(max-width:760px){.arrow{transform:rotate(90deg);}}
 
 /* 앱 시연 배너 */
+.guide-sec{background:var(--ink2);border:1px solid var(--line);border-radius:20px;padding:36px;margin-bottom:48px;}
+.guide-inner{max-width:680px;}
+.guide-tag{font-size:13px;font-weight:800;color:var(--tide);letter-spacing:.5px;margin-bottom:12px;}
+.guide-h{font-size:26px;font-weight:900;line-height:1.35;letter-spacing:-.5px;margin-bottom:16px;}
+.guide-p{font-size:15px;line-height:1.7;color:var(--muted);}
 .demo-banner{
   background:linear-gradient(135deg,var(--tide-deep),var(--out));
   border-radius:20px;padding:36px;text-align:center;
@@ -104,9 +109,10 @@ footer{margin-top:48px;font-size:13px;color:var(--muted);text-align:center;line-
       <video src="shorts.mp4" controls autoplay muted loop playsinline></video>
     </div>
     <div class="pitch">
-      <h1>티켓은 못 사는 게<br>아니라, <span class="accent">사는 법을<br>모를 뿐</span></h1>
-      <p class="lead">K-pop 콘서트, 표는 2매 단위로 팔리는데 혼자 가면 옆자리 1자리는 그냥 버려집니다.</p>
-      <p>그 빈자리가 쌓이면 공연장이 작아지고, 결국 다음의 내 자리도 사라져요. SeatMate는 버려질 한 자리를 같이 갈 팬과 연결합니다.</p>
+      <h1>혼자라서 포기한<br>콘서트, <span class="accent">있나요?</span></h1>
+      <p class="lead">2매 중 남는 한 자리, 같이 갈 팬과 잇습니다.</p>
+      <p>K-pop 콘서트 표는 대부분 2매 단위. 혼자 가면 옆 한 자리는 그냥 버려집니다. 그 빈 옆자리는, 같이 가고 싶어 하는 누군가의 간절한 자리이기도 합니다.</p>
+      <p>SeatMate는 버려질 한 자리를 같이 갈 팬과 안전하게 연결합니다.</p>
       <div class="cta-row">
         <a href="app.html" class="btn btn-primary">앱 데모 열기 →</a>
         <a href="#how" class="btn btn-ghost">어떻게 작동하나요</a>
@@ -137,13 +143,21 @@ footer{margin-top:48px;font-size:13px;color:var(--muted);text-align:center;line-
   </div>
 
   <div class="flow">
-    <div class="flow-title">SeatMate가 하는 일</div>
+    <div class="flow-title">매칭은 이렇게 이뤄집니다</div>
     <div class="flow-steps">
-      <div class="step"><span class="n">STEP 1</span>티켓 방향 가이드</div>
+      <div class="step"><span class="n">STEP 1</span>남는 자리 등록</div>
       <span class="arrow">→</span>
-      <div class="step"><span class="n">STEP 2</span>2인석 파트너 매칭</div>
+      <div class="step"><span class="n">STEP 2</span>같이 갈 팬 매칭</div>
       <span class="arrow">→</span>
       <div class="step"><span class="n">STEP 3</span>현장에서 정가 정산</div>
+    </div>
+  </div>
+
+  <div class="guide-sec">
+    <div class="guide-inner">
+      <div class="guide-tag">해외 콘서트도, 해외 팬도</div>
+      <h2 class="guide-h">티켓은 못 사는 게 아니라,<br>사는 법을 모를 뿐</h2>
+      <p class="guide-p">한국인이 해외 콘서트에 가는 길, 외국 팬이 한국 콘서트에 오는 길 — 나라마다 다른 예매처·결제·팬클럽 가입 방식을 방향별로 정리했습니다. 예매법을 몰라 포기하지 않도록.</p>
     </div>
   </div>
 
