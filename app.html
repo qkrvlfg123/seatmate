@@ -1130,14 +1130,15 @@ const CAT_NOTE={
   ev:{txt:'⚠️ 경품·초대권은 양도금지가 많아요. 남는 표 판매 대신 "함께 응모/입장" 방식만 이용하세요.',bg:'#fff2e3',fg:'#9a5a1a'},
 };
 
+// 데모용 가상 데이터. 전화번호는 실제로 배정되지 않는 010-0000 대역의 값이다.
 const SEED=[
-  {id:'p1',cat:'jp',place:'도쿄 (일본콘)',date:'2026-05-21',seat:'before',nick:'DIVE_도쿄원정',phone:'01011112222',desc:'도쿄·오사카 여러 회차 응모 중! 하나 걸리면 정가로 같이 가실 동행 미리 구해요. 당첨되면 바로 연락, 전날 시부야에서 만나요.',trust:3,mine:false,status:'open',applicants:[]},
-  {id:'p2',cat:'jp',place:'오사카 (일본콘)',date:'2026-05-24',seat:'after',nick:'osaka_lucky',phone:'01033334444',desc:'오사카 당첨됐는데 친구가 못 가게 됐어요ㅠ 남는 1자리 정가에 같이 가실 분! 좌석 랜덤이에요.',trust:5,mine:false,status:'open',applicants:[]},
-  {id:'p3',cat:'kr',place:'잠실 KSPO돔',date:'2026-04-12',seat:'after',nick:'서울콘_2매',phone:'01055556666',desc:'국내 콘서트 1인 2매 성공했는데 옆자리 같이 가실 분! 정가 그대로, 지정석이라 자리 확정이에요.',trust:4,mine:false,status:'open',applicants:[]},
-  {id:'p4',cat:'kr',place:'고척스카이돔',date:'2026-04-19',seat:'before',nick:'고척뚜벅이',phone:'01077778888',desc:'티켓팅 같이 도전해서 나란히 앉을 파트너 구해요. 각자 결제하고 좌석만 붙이는 방식. 실패해도 쿨하게!',trust:2,mine:false,status:'open',applicants:[]},
-  {id:'p5',cat:'ev',place:'펩시 페스타 (잠실)',date:'2026-09-20',seat:'before',nick:'펩시콘_당첨각',phone:'01099990000',desc:'편의점 스탬프 응모해서 펩시콘 노리는 중! 1인 2매라 같이 갈 사람 미리 구해요. 당첨되면 바로 연락. 아이브 보러가요🩵',trust:1,mine:false,status:'open',applicants:[]},
-  {id:'p6',cat:'ev',place:'뮤지컬 초대 이벤트',date:'2026-05-16',seat:'before',nick:'공연덕_초대권',phone:'01012349876',desc:'기업 이벤트 초대권 1인 2매 당첨 노리는 중. 양도금지라 처음부터 같이 입장할 동행 찾아요. 공연 좋아하는 분!',trust:3,mine:false,status:'open',applicants:[]},
-  {id:'p7',cat:'jp',place:'도쿄 막콘',date:'2026-05-22',seat:'after',nick:'tokyo_n2',phone:'01044445555',desc:'도쿄 막콘 당첨돼서 표 하나 남아요! 정가로 같이 가실 분. 입장 시 동행자 등록 확인하니 공식 절차대로.',trust:4,mine:false,status:'matched',applicants:[]},
+  {id:'p1',cat:'jp',place:'도쿄 (일본콘)',date:'2026-05-21',seat:'before',nick:'DIVE_도쿄원정',phone:'01000000001',desc:'도쿄·오사카 여러 회차 응모 중! 하나 걸리면 정가로 같이 가실 동행 미리 구해요. 당첨되면 바로 연락, 전날 시부야에서 만나요.',trust:3,mine:false,status:'open',applicants:[]},
+  {id:'p2',cat:'jp',place:'오사카 (일본콘)',date:'2026-05-24',seat:'after',nick:'osaka_lucky',phone:'01000000002',desc:'오사카 당첨됐는데 친구가 못 가게 됐어요ㅠ 남는 1자리 정가에 같이 가실 분! 좌석 랜덤이에요.',trust:5,mine:false,status:'open',applicants:[]},
+  {id:'p3',cat:'kr',place:'잠실 KSPO돔',date:'2026-04-12',seat:'after',nick:'서울콘_2매',phone:'01000000003',desc:'국내 콘서트 1인 2매 성공했는데 옆자리 같이 가실 분! 정가 그대로, 지정석이라 자리 확정이에요.',trust:4,mine:false,status:'open',applicants:[]},
+  {id:'p4',cat:'kr',place:'고척스카이돔',date:'2026-04-19',seat:'before',nick:'고척뚜벅이',phone:'01000000004',desc:'티켓팅 같이 도전해서 나란히 앉을 파트너 구해요. 각자 결제하고 좌석만 붙이는 방식. 실패해도 쿨하게!',trust:2,mine:false,status:'open',applicants:[]},
+  {id:'p5',cat:'ev',place:'펩시 페스타 (잠실)',date:'2026-09-20',seat:'before',nick:'펩시콘_당첨각',phone:'01000000005',desc:'편의점 스탬프 응모해서 펩시콘 노리는 중! 1인 2매라 같이 갈 사람 미리 구해요. 당첨되면 바로 연락. 아이브 보러가요🩵',trust:1,mine:false,status:'open',applicants:[]},
+  {id:'p6',cat:'ev',place:'뮤지컬 초대 이벤트',date:'2026-05-16',seat:'before',nick:'공연덕_초대권',phone:'01000000006',desc:'기업 이벤트 초대권 1인 2매 당첨 노리는 중. 양도금지라 처음부터 같이 입장할 동행 찾아요. 공연 좋아하는 분!',trust:3,mine:false,status:'open',applicants:[]},
+  {id:'p7',cat:'jp',place:'도쿄 막콘',date:'2026-05-22',seat:'after',nick:'tokyo_n2',phone:'01000000007',desc:'도쿄 막콘 당첨돼서 표 하나 남아요! 정가로 같이 가실 분. 입장 시 동행자 등록 확인하니 공식 절차대로.',trust:4,mine:false,status:'matched',applicants:[]},
 ];
 
 // 사기 신고된 번호의 해시 DB (전화번호 원본은 저장 안 함, 해시만)
@@ -1150,7 +1151,7 @@ function phoneHash(phone){
 }
 // 신고 이력 있는 번호들의 해시 (원본 번호는 여기 없음 — 해시만)
 const REPORTED_HASHES=new Set([
-  phoneHash('01099990000'),  // 펩시콘_당첨각 = 신고 이력 있음 (데모)
+  phoneHash('01000000005'),  // 펩시콘_당첨각 = 신고 이력 있음 (데모)
 ]);
 function isReported(phone){return phone&&REPORTED_HASHES.has(phoneHash(phone));}
 
@@ -1158,8 +1159,9 @@ let POSTS=[];
 let currentTab='board';
 let currentCat='all';
 
-async function loadPosts(){try{const r=await window.storage.get(KEY);return r?JSON.parse(r.value):null;}catch(e){return null;}}
-async function savePosts(p){try{await window.storage.set(KEY,JSON.stringify(p));}catch(e){console.error(e);}}
+// 글 목록은 이 브라우저에만 저장된다(서버 없음). 저장이 막힌 환경에서는 새로고침하면 처음 상태로 돌아간다.
+async function loadPosts(){try{const v=localStorage.getItem(KEY);return v?JSON.parse(v):null;}catch(e){return null;}}
+async function savePosts(p){try{localStorage.setItem(KEY,JSON.stringify(p));}catch(e){}}
 
 async function init(){
   POSTS=await loadPosts();
@@ -1215,7 +1217,7 @@ function renderBoard(){
     const btn=p.status==='matched'?'':(p.mine?`<button class="btn ghost sm" disabled>내 글</button>`:applied?`<button class="btn ghost sm" disabled>신청함 ✓</button>`:`<button class="btn primary sm" onclick="apply('${p.id}')">동행 신청</button>`);
     const reported=isReported(p.phone);
     const warnBanner=reported?`<div class="warn-report">🚨 <b>신고 이력이 확인된 번호예요</b> · 해시 대조 결과 과거 먹튀·사기 신고 기록이 있어요. 거래에 각별히 주의하세요.</div>`:'';
-    const verifyBadge=reported?`<span class="verify bad">⚠ 신고 이력</span>`:`<span class="verify ok">✓ 이력 없음</span>`;
+    const verifyBadge=reported?`<span class="verify bad">⚠ 신고 이력</span>`:`<span class="verify ok">신고 목록에 없음</span>`;
     return `<div class="post c${p.cat} ${reported?'flagged':''}">
       <div class="row1">${catChip}<span class="chip place">${esc(p.place)}</span><span class="chip date">${p.date}</span>${seatChip}${statusTxt}</div>
       ${warnBanner}
